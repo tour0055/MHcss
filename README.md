@@ -1,4 +1,3 @@
-# MHcss
 # NovaCSS
 
 ## Description
@@ -31,18 +30,27 @@ NovaCSS includes styling for:
 
 ## Usage
 
-After linking the framework, you can use NovaCSS classes in your HTML.
+After linking the framework, you can use NovaCSS classes directly in your HTML.
 
-Example:
+### Button Example
 
 ```html
-<button class="btn btn-primary">Click Me</button>
+<button class="btn btn-primary">Primary Button</button>
+<button class="btn btn-secondary">Secondary Button</button>
+```
 
+### Text Example
+
+```html
 <p class="text-primary fw-bold">
   Welcome to NovaCSS!
 </p>
+```
 
-<div class="p-3 m-2 border">
+### Spacing and Border Example
+
+```html
+<div class="p-3 m-2 border rounded">
   Example using spacing and border utilities.
 </div>
 ```
@@ -51,7 +59,7 @@ Example:
 
 NovaCSS uses Sass variables to make the framework easy to customize.
 
-Variables can be changed inside:
+The variables can be changed inside:
 
 ```text
 scss/_variables.scss
@@ -60,13 +68,15 @@ scss/_variables.scss
 For example:
 
 ```scss
-$primary-color: #6c63ff;
-$secondary-color: #333333;
-$font-family: Arial, sans-serif;
-$border-radius: 6px;
+$primary: #6c63ff;
+$secondary: #6c757d;
+$font-family: Arial, Helvetica, sans-serif;
+$border-radius: 8px;
 ```
 
-After changing the variables, compile `main.scss` again to generate the updated `framework.css`.
+Change these values to customize the colors, typography, and appearance of the framework.
+
+After changing the variables, compile `main.scss` again to generate an updated compiled CSS file.
 
 ## Sass Structure
 
@@ -80,6 +90,44 @@ scss/
 ├── _tables.scss
 └── _utilities.scss
 ```
+
+The Sass partials separate the framework into different components to keep the code organized and easy to maintain.
+
+## Compiled CSS
+
+The compiled version of the NovaCSS framework is located at:
+
+```text
+css/framework.css
+```
+
+This file can be linked directly to an HTML project without requiring Sass.
+
+## Utility Classes
+
+NovaCSS provides utility classes for common styling needs, including:
+
+- Text colors
+- Background colors
+- Font weight
+- Font size
+- Margin
+- Padding
+- Borders
+- Border radius
+- Text alignment
+
+Example:
+
+```html
+<div class="bg-primary text-white p-3 m-2 rounded">
+  Styled with NovaCSS utility classes.
+</div>
+```
+
+## Demo
+
+The `index.html` file provides examples of NovaCSS components and utilities, including typography, lists, buttons, colors, forms, tables, spacing, and borders.
 
 ## Team Members
 
