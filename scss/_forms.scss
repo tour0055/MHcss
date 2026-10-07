@@ -1,0 +1,35 @@
+
+form {
+  max-width: 600px;
+  padding: 20px;
+  background-color: $white;
+  border-radius: $border-radius;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: $border-radius;
+  font-family: $font-family;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: 2px solid $primary;
+    border-color: $primary;
+  }
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
