@@ -57,7 +57,7 @@ After linking the framework, you can use NovaCSS classes directly in your HTML.
 
 ## Customization
 
-NovaCSS uses Sass variables to make the framework easy to customize.
+MHCSS uses Sass variables to make the framework easy to customize.
 
 The variables can be changed inside:
 
@@ -105,7 +105,7 @@ This file can be linked directly to an HTML project without requiring Sass.
 
 ## Utility Classes
 
-NovaCSS provides utility classes for common styling needs, including:
+MHCSS provides utility classes for common styling needs, including:
 
 - Text colors
 - Background colors
@@ -121,13 +121,13 @@ Example:
 
 ```html
 <div class="bg-primary text-white p-3 m-2 rounded">
-  Styled with NovaCSS utility classes.
+  Styled with MHCSS utility classes.
 </div>
 ```
 
 ## Demo
 
-The `index.html` file provides examples of NovaCSS components and utilities, including typography, lists, buttons, colors, forms, tables, spacing, and borders.
+The `index.html` file provides examples of MHCSS components and utilities, including typography, lists, buttons, colors, forms, tables, spacing, and borders.
 
 ## Team Members
 
