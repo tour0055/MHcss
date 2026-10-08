@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $spacing-large;
+}
+
+th,
+td {
+  padding: $spacing-medium;
+  border: 1px solid $border-color;
+  text-align: left;
+}
+
+th {
+  background-color: $primary-color;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: $light-color;
+}

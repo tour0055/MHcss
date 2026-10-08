@@ -1,0 +1,132 @@
+@use 'variables' as *;
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-success {
+  color: $success-color;
+}
+
+.text-danger {
+  color: $danger-color;
+}
+
+.text-dark {
+  color: $dark-color;
+}
+
+.text-light {
+  color: white;
+}
+
+.bg-primary {
+  background-color: $primary-color;
+  color: white;
+}
+
+.bg-secondary {
+  background-color: $secondary-color;
+  color: white;
+}
+
+.bg-light {
+  background-color: $light-color;
+}
+
+.bg-dark {
+  background-color: $dark-color;
+  color: white;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fs-small {
+  font-size: $font-small;
+}
+
+.fs-medium {
+  font-size: $font-medium;
+}
+
+.fs-large {
+  font-size: $font-large;
+}
+
+.fs-xlarge {
+  font-size: $font-xlarge;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: $spacing-small;
+}
+
+.m-2 {
+  margin: $spacing-medium;
+}
+
+.m-3 {
+  margin: $spacing-large;
+}
+
+.mt-1 {
+  margin-top: $spacing-small;
+}
+
+.mt-2 {
+  margin-top: $spacing-medium;
+}
+
+.mb-1 {
+  margin-bottom: $spacing-small;
+}
+
+.mb-2 {
+  margin-bottom: $spacing-medium;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: $spacing-small;
+}
+
+.p-2 {
+  padding: $spacing-medium;
+}
+
+.p-3 {
+  padding: $spacing-large;
+}
+
+.border {
+  border: 1px solid $border-color;
+}
+
+.border-primary {
+  border: 1px solid $primary-color;
+}
+
+.rounded {
+  border-radius: $border-radius;
+}
+
+.text-center {
+  text-align: center;
+}
