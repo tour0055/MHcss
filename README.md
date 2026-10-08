@@ -1,12 +1,12 @@
-# NovaCSS
+# MHCSS
 
 ## Description
 
-NovaCSS is a custom CSS framework created using Sass. It provides a simple, modern, and consistent design for standard HTML elements. The framework also includes utility classes that make it easier to style webpages without writing additional CSS.
+MHCSS is a custom CSS framework created using Sass. It provides a simple, modern, and consistent design for standard HTML elements. The framework also includes utility classes that make it easier to style webpages without writing additional CSS.
 
 ## Features
 
-NovaCSS includes styling for:
+MHCSS includes styling for:
 
 - Headings and paragraphs
 - Links and lists
@@ -43,7 +43,7 @@ After linking the framework, you can use NovaCSS classes directly in your HTML.
 
 ```html
 <p class="text-primary fw-bold">
-  Welcome to NovaCSS!
+  Welcome to MHCSS!
 </p>
 ```
 
